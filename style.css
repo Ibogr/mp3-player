@@ -1,0 +1,35 @@
+ body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+ }
+ .conteiner {
+
+    width: 400px;
+}
+
+
+
+.list-volume {
+    display: flex;
+    justify-content: space-between;
+    margin: 40px 0;
+}
+
+
+
+
+#progress .times, .card-footer, .volume-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.volume-container{
+    gap: 10px;
+}
+
+li.playing{
+    background-color: blue;
+    color: aliceblue;
+}
